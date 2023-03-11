@@ -1,0 +1,46 @@
+body{
+    background-color: #fcf2ee;
+    font-family: Alegraya Sands, san-serif;
+    font-size: 20px;
+}
+.menu{
+    background-color: #f19849;
+    text-align: center;
+    word-spacing: 2em;
+}
+.row {
+    font-size: 1em;
+    margin: 2em;
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 12px;
+    }
+}
+footer{
+    font-size: 15px;
+    background-color: #f19849;
+    word-spacing: 2em;
+}
+.yellow{
+    background-color: #f4e256;
+}
+.pink{
+    background-color: #f89edc;
+}
+.bio{
+    margin: 2em;
+    padding: 2em;
+}
+.black{
+    background-color: #000;
+}
+h1{
+    font-family: Alegraya Sands, san-serif;
+    text-align: left;
+    margin: 1em 0 1em 2em;
+    font-size: 2.5em;;
+}
+h3{
+    text-align: center;
+}
