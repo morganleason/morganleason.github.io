@@ -1,54 +1,84 @@
-body{
+body {
     background-color: #A2A5A5;
-    font-family: Alegraya Sands, san-serif;
+    font-family: 'Alegraya Sands', sans-serif;
     font-size: 20px;
 }
-.menu{
-    background-color: #EFE7FB;
+h1 {
+    font-family: 'Alegraya Sands', sans-serif;
+    text-align: left;
+    margin: 1em;
+    font-size: 2.5em;
+}
+h3,
+h2 {
     text-align: center;
+}
+h3 {
+    text-decoration: underline;
+}
+a {
+    color: #000;
+}
+.clips a {
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 600;
+}
+.menu,
+footer {
+    padding: 1em 0;
+    text-align: center;
+}
+.menu {
+    background-color: #EFE7FB;
     word-spacing: 2em;
 }
 .row {
     font-size: 1em;
     margin: 2em;
 }
-@media (max-width: 700px){
-    h1{
-        font-size: 12px;
-    }
-    h2{
-        margin: 2em;
-    }
-}
-footer{
-    font-size: 15px;
+footer {
+    font-size: .75em;
     background-color: #EFE7FB;
     word-spacing: 2em;
     text-align: center;
 }
-.yellow{
+.yellow {
     background-color: #D8FAFA;
 }
-.pink{
+.pink {
     background-color: #EFE7FB;
 }
-.bio{
-    margin: 2em;
+.bio h2 {
+    line-height: 3;
+}
+.bio {
     padding: 2em;
 }
-.black{
+.padded {
+    padding: 1em 0 0 0;
+}
+.black {
     background-color: #2D3883;
 }
-h1{
-    font-family: Alegraya Sands, san-serif;
-    text-align: left;
-    margin: 1em 0 1em 2em;
-    font-size: 2.5em;;
+@media (max-width: 775px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        margin: 2em;
+    }
 }
-h3,
-h2{
-    text-align: center;
-}
-h3{
-    text-decoration: underline;
+@media (max-width: 500px) {
+    .bio {
+        margin: 2em 0;
+        padding: 2em 0;
+    }
+    .clips a {
+        padding: 0 0 1em 0;
+    }
+    h1{
+        margin: 2em 0;
+        text-align: center;
+    }
 }
