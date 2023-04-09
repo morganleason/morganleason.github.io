@@ -1,0 +1,121 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-family: 'cabin condensed', sans-serif;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+}
+h2,
+h3,
+h4 {
+    font-family: 'cabin condensed', sans-serif;
+    font-size: 700px;
+}
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+}
+h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 1.25em;
+    color: #b2322d;
+    text-align: center;
+}
+#video {
+    background-color: #0E171A;
+    padding: 18em 8em 18em 0;
+    margin: 0 0 4em 0;
+    color: #fff;
+    font-size: 1em;
+}
+#video p {
+    font-size: .65em;
+    text-transform: uppercase;
+}
+a {
+    color: #0E171A;
+}
+#video a {
+    color: #FAFAFA;
+}
+.graphic {
+    text-align: center;
+    margin: 4em;
+}
+#timeline {
+    font-size: .85em;
+    letter-spacing: 1px;
+}
+.dates {
+    text-align: left;
+    background-color: #b2322d;
+    color: #FAFAFA;
+}
+.vertical-line {
+    position: relative;
+}
+.vertical-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    width: 3px;
+    background-color: #b2322d;
+}
+#top-artist {
+    text-align: center;
+    margin: 6em 4em;
+}
+#monthly-listeners {
+    margin: 6em 4em 2em 4em;
+}
+footer {
+    font-size: .75em;
+    text-align: center;
+}
+@media(max-width: 1022px) {
+    body {
+        margin: 1em;
+    }
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    #video p {
+        text-align: center;
+        padding: 1em;
+    }
+    #video {
+        padding: 8em 8em 8em 0em;
+    }
+    #timeline {
+        font-size: .85em;
+        margin: 1em;
+    }
+    .vertical-line {
+        position: relative;
+    }
+    .vertical-line::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0px;
+        width: 3px;
+        background-color: #b2322d;
+    }
+}
+@media (max-width: 550px) {
+    h4 {
+        padding: 0em 0em 4em 0em;
+    }
+    #video {
+        padding: 8em 6em 6em 0em;
+    }
+}
