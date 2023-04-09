@@ -51,8 +51,7 @@ a {
     font-size: .85em;
     letter-spacing: 1px;
 }
-.dates {
-    text-align: left;
+#timeline b{
     background-color: #b2322d;
     color: #FAFAFA;
 }
