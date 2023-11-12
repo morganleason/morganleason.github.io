@@ -1,5 +1,5 @@
 body {
-    background-color: #A2A5A5;
+    background-color: #bbbdbd;
     font-family: 'Alegraya Sands', sans-serif;
     font-size: 20px;
 }
@@ -30,7 +30,7 @@ footer {
     text-align: center;
 }
 .menu {
-    background-color: #EFE7FB;
+    background-color: #fff;
     word-spacing: 2em;
 }
 .row {
@@ -39,15 +39,15 @@ footer {
 }
 footer {
     font-size: .75em;
-    background-color: #EFE7FB;
+    background-color: #fff;
     word-spacing: 2em;
     text-align: center;
 }
 .yellow {
-    background-color: #D8FAFA;
+    background-color: #302c4d8c;
 }
 .pink {
-    background-color: #EFE7FB;
+    background-color: #fff;
 }
 .bio h2 {
     line-height: 3;
